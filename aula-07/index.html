@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores - Parte.01</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        section{
+            background-color: black;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            max-width: 500px;
+            padding: 20px;
+        }
+        .container{
+            display: flex;
+        }
+        article{
+            padding: 0px 20px;
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        img{
+            max-width: 180px;
+            margin-top: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Atribuições Simples</h1>
+        <article class="container">
+            <article>
+                <p>
+                    var a = 5 + 3 <br>
+                    var b = a % 5 <br>
+                    var c = 5 * b ** 2 <br>
+                    var d = 10 - a / 2 <br>
+                    var e = 6 * 2 / d <br>
+                    var f = b % e + 4 / e <br>
+                </p>
+            </article>
+            <article>
+                <script>
+                    var a = 5 + 3
+                    var b = a % 5
+                    var c = 5 * b ** 2
+                    var d = 10 - a / 2
+                    var e = 6 * 2 / d
+                    var f = b % e + 4 / e
+                    document.writeln(` a = ${a} <br> b = ${b} <br> c = ${c} <br> d = ${d} <br> e = ${e} <br> f = ${f}`)
+                </script>
+            </article>
+        </article>
+    </section>
+    <br>
+    <section>
+        <h1>Auto-Atribuições</h1>
+        <article class="container">
+            <article>
+                <p>
+                    var n = 5 + 5 <br>
+                    n = n + 5
+                </p>
+            </article>
+            <article>
+                <script>
+                    var n = 5 + 5
+                    n = n + 5
+                    document.write(` var n = `, n)
+                </script>
+            </article>
+        </article>
+        <br>
+        <article>
+            <p>● simplificando...</p>
+            <img src="src/exemplo.png" alt="">
+            <p>●● simplificando²...</p>
+            <img src="src/Screenshot_16.png" alt="">
+        </article>
+    </section>
+</body>
+</html>
