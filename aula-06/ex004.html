@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Strings</title>
+</head>
+<body>
+
+    <script>
+        var nome = window.prompt('Qual é o seu nome?')
+
+        // variavel.lenght -> Atributo que pede o número de caracteres da string
+        window.alert(`Olá, ${nome}! Seu nome tem exatamente ${nome.length} letras.`)
+
+        // variavel.toUperCase() -> Método que estiliza toda a string para letras MAIÚSCOLAS
+        // variavel.toLowerCase() -> Método que estiliza toda a string para letras MINÚSCULAS
+        document.write(`Olá, ${nome}! Seu nome tem exatamente ${nome.length} <br>`)
+
+        document.write(`Seu nome em letras maiúsculas >>> ${nome.toUpperCase()} <br>`)
+
+        document.write(`Seu nome em letras minúsculas >>> ${nome.toLowerCase()} <br>`)
+        
+    </script>
+</body>
+</html>

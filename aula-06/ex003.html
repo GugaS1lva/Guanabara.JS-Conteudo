@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Terceiro Site</title>
+    <style>
+        body{
+            background-color: rgb(105, 105, 173);
+        }
+        section{
+            display: inline-block;
+            background-color: rgba(0, 0, 0, 0.623);
+            color: white;
+
+            padding: 5px 20px;
+            border-radius: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 1px 1px 5px white;
+        }
+        img{
+            max-width: 50px;
+        }
+        img:hover{
+            max-width: none;
+        }
+        .imagem-deitada{
+            max-width: 200px;
+        }
+        .imagem-deitada:hover{
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>&lt; Olá, Mundo! &gt;</h1> <hr>
+        <p>Formatação de dados - STRING para NUMBER:</p> <br>
+        <img src="src/Screenshot_11.png" alt="Exemplo de Código - Formatação de dados em JS">
+        <p>Formatação de dados - NUMBER para STRING:</p> <br>
+        <img src="src/Screenshot_11 (2).png" alt="Exemplo de Código - Formatação de dados em JS">
+    </section>
+    <br>
+    <br>
+    <section>
+        <p>Formatando Strings:</p> <hr>
+        <img class="imagem-deitada" src="src/Screenshot_11 (3).png" alt="Exemplo de Código">
+    </section>
+
+    <script>
+        var n1 = window.prompt('Digite um número >>>')
+        var n2 = window.prompt('Digite outro número >>>')
+        var s = Number(n1) + Number(n2)
+        window.alert(`A soma entre ${n1} + ${n2} é igual a ${s}`)
+
+
+        var s = 'JavaScript'
+        window.alert(`Eu estou aprendendo ${s}`)
+    </script>
+</body>
+</html>

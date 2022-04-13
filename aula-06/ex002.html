@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Segundo Site</title>
+    <style>
+        body{
+            background-color: rgb(105, 105, 173);
+        }
+        h1{
+            display: inline-block;
+            background-color: rgba(0, 0, 0, 0.623);
+            color: white;
+
+            padding: 5px 20px;
+            border-radius: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 1px 1px 5px white;
+        }
+    </style>
+</head>
+<body>
+    <h1>&lt; Olá, Mundo! &gt;</h1>
+
+    <script>
+        // var - Diz respeito a variável.
+        // nome - Diz respeito ao nome da variável, pode ser qualquer coisa escrita no lugar de "nome".
+        // = - Diz respeito ao sinal de atribuição. Algo "recebe" algo.
+        // window - Diz respeito a caixa de diálogo que aparece no topo do site quando ele é carregado.
+        // .prompt('') - Diz respeito ao comportamento da caixa de diálogo. Nesse caso, é uma caixa com opção pro usuário escrever algo e mandar dados pro Back-End. O texo (escrito entre áspas simples) vai aparecer transparente na tela e vai sumir logo depois do que o usuário digitar algo.
+
+        // .alert - Diz respeito ao comportamento da caixa de diálogo. Nesse caso, é apenas uma mensagem na tela.
+        var nome = window.prompt('Qual é o seu nome mesmo?')
+        window.alert('É um grande prazer te conhecer, ' + nome + '!') // Sinal de + significa concatenação.
+    </script>
+</body>
+</html>
